@@ -42,7 +42,7 @@ class requestHandler {
 				echo "<h2>Invalid API_KEY or the sensor parameter is missing from the URL.</h2>";
 				break;
 			case 'INVALID_REQUEST':
-				echo "<h2>A required parameter is missing, please contact the admin of the site.</h2>";
+				echo "<h2>A required parameter is missing or wrong, please try a different request or contact the admin of the site.</h2>";
 				break;
 			default:
 				echo "<h2>An unkwon status was obtained from the Google Places API.</h2>";
